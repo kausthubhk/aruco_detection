@@ -22,7 +22,8 @@ objectp3d *= square_size_mm
 # Initialize variables to store image dimensions
 prev_img_shape = None
 # Get a list of image file paths in the current directory
-images = glob.glob('*.jpg')
+images = glob.glob('jpg_chessboard/*.jpg')
+
 
 # Loop through each image in the list
 for filename in images:

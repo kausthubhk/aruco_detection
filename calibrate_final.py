@@ -22,7 +22,7 @@ def calibrate():
     objpoints = []  # 3d point in real world space
     imgpoints = []  # 2d points in image plane.
 
-    images = glob.glob('*.jpg')
+    images = glob.glob('jpg_chessboard/*.jpg')
 
     for fname in images:
         img = cv2.imread(fname)
